@@ -1007,8 +1007,8 @@ packages:
   mdast-util-to-string@3.2.0:
     resolution: {integrity: sha512-V4Zn/ncyN1QNSqSBxTrMOLpjr+IKdHl2v3KVLoWmDPscP4r9GcCi71gjgvUV1SFSKh92AjAG4peFuBl2/YgCJg==}
 
-  mermaid@10.9.3:
-    resolution: {integrity: sha512-V80X1isSEvAewIL3xhmz/rVmc27CVljcsbWxkxlWJWY/1kQa4XOABqpDl2qQLGKzpKm6WbTfUEKImBlUfFYArw==}
+  mermaid@10.9.4:
+    resolution: {integrity: sha512-VIG2B0R9ydvkS+wShA8sXqkzfpYglM2Qwj7VyUeqzNVqSGPoP/tcaUr3ub4ESykv8eqQJn3p99bHNvYdg3gCHQ==}
 
   micromark-core-commonmark@1.1.0:
     resolution: {integrity: sha512-BgHO1aRbolh2hcrzL2d1La37V0Aoz73ymF8rAcKnohLy93titmv62E0gP8Hrx9PKcKrqCZ1BbLGbP3bEhoXYlw==}
@@ -1793,7 +1793,7 @@ snapshots:
 
   '@theguild/remark-mermaid@0.0.5(react@18.3.1)':
     dependencies:
-      mermaid: 10.9.3
+      mermaid: 10.9.4
       react: 18.3.1
       unist-util-visit: 5.0.0
     transitivePeerDependencies:
@@ -2635,7 +2635,7 @@ snapshots:
     dependencies:
       '@types/mdast': 3.0.15
 
-  mermaid@10.9.3:
+  mermaid@10.9.4:
     dependencies:
       '@braintree/sanitize-url': 6.0.4
       '@types/d3-scale': 4.0.9
